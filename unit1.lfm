@@ -1,0 +1,101 @@
+object Form1: TForm1
+  Left = 257
+  Height = 314
+  Top = 145
+  Width = 766
+  Caption = 'Form1'
+  ClientHeight = 314
+  ClientWidth = 766
+  OnCreate = FormCreate
+  OnMouseMove = FormMouseMove
+  LCLVersion = '3.4.0.0'
+  object ButtonTitik: TButton
+    Left = 8
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Titik'
+    TabOrder = 0
+    OnClick = ButtonTitikClick
+  end
+  object ButtonGaris1: TButton
+    Left = 88
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Garis1'
+    TabOrder = 1
+    OnClick = ButtonGaris1Click
+  end
+  object ButtonGaris2: TButton
+    Left = 168
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Garis2'
+    TabOrder = 2
+    OnClick = ButtonGaris2Click
+  end
+  object ButtonRectangle: TButton
+    Left = 248
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Rectangle'
+    TabOrder = 3
+    OnClick = ButtonRectangleClick
+  end
+  object ButtonRoundtect: TButton
+    Left = 328
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Roundtect'
+    TabOrder = 4
+    OnClick = ButtonRoundtectClick
+  end
+  object ButtonEllipse: TButton
+    Left = 408
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Ellipse'
+    TabOrder = 5
+    OnClick = ButtonEllipseClick
+  end
+  object ButtonEllipse2: TButton
+    Left = 488
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Ellipse2'
+    TabOrder = 6
+    OnClick = ButtonEllipse2Click
+  end
+  object ButtonKotak: TButton
+    Left = 568
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Kotak'
+    TabOrder = 7
+    OnClick = ButtonKotakClick
+  end
+  object ButtonHapus: TButton
+    Left = 648
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Hapus'
+    TabOrder = 8
+    OnClick = ButtonHapusClick
+  end
+  object Label1: TLabel
+    Left = 81
+    Height = 15
+    Top = 17
+    Width = 80
+    Caption = 'LabelKoordinat'
+    OnMouseMove = Label1MouseMove
+  end
+end
